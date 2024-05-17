@@ -123,23 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &514117953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8191592234807076022, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
-  m_PrefabInstance: {fileID: 4770851791049328746}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &514117958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514117953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc92c5c0ecece414b9ea2e4429cebbd2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,25 +588,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5204206554223597746, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8191592234807076022, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
     - target: {fileID: 9050494017390464218, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.10099
       objectReference: {fileID: 0}
     - target: {fileID: 9050494017390464218, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.69
+      value: 2.2977
       objectReference: {fileID: 0}
     - target: {fileID: 9050494017390464218, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.065107
       objectReference: {fileID: 0}
     - target: {fileID: 9050494017390464218, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
       propertyPath: m_LocalRotation.w
@@ -656,10 +635,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8191592234807076022, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 514117958}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f395cc7fa53f29419ac330555348889, type: 3}
 --- !u!1001 &7635658752000343145
 PrefabInstance:
